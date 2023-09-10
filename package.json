@@ -12,11 +12,13 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "6.8.0",
     "@pinia/nuxt": "0.4.11",
+    "@types/uuid": "9.0.3",
     "c8": "8.0.1",
     "nuxt": "^3.7.0",
     "vitest": "0.34.4"
   },
   "dependencies": {
-    "pinia": "2.1.6"
+    "pinia": "2.1.6",
+    "uuid": "9.0.0"
   }
 }

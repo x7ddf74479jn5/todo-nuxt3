@@ -2,6 +2,11 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss", "@pinia/nuxt"],
+  nitro: {
+    externals: {
+      inline: ["uuid"],
+    },
+  },
   tailwindcss: {
     cssPath: "~assets/css/tailwind.css",
     configPath: "tailwind.config.js",
@@ -9,8 +14,5 @@ export default defineNuxtConfig({
     config: {},
     injectPosition: 0,
     viewer: true,
-  },
-  colorMode: {
-    classSuffix: "",
   },
 });
